@@ -4,7 +4,19 @@ class BookService
     @repository = repository
   end
 
-  def add_book()
+  def add_book(id,title,author)
+    @repository.add
+    def id
+      return id
+    end
+
+    def title
+      return title
+    end
+
+    def author
+      return author
+    end
   end
 
   def update_book()
