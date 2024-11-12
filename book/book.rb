@@ -9,6 +9,10 @@ class Book
   end
 
   def info
-    return "ID: #{@id}, Title: #{@title}, Author: #{@author}"
+    "ID: #{@id}, Title: #{@title}, Author: #{@author}"
+  end
+
+  def title
+    @title
   end
 end
